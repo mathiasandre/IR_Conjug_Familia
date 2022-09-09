@@ -1,0 +1,175 @@
+---
+title: Les dispositifs conjugaux et familiaux réduisent l’impôt sur le revenu de 29,7
+  milliards d’euros
+author: "Mathias André (division Redistribution et politiques sociales, Insee)"
+date: "avril 2020_v4"
+output:
+  word_document: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Chapeau
+
+**En France, l’impôt sur le revenu est conjugalisé et familialisé, c'est-à-dire qu'il tient compte des ressources et des charges familiales du foyer fiscal. **
+
+**En 2018, en France métropolitaine, les mécanismes conjugaux et familiaux réduisent les recettes fiscales de 29,7 milliards d’euros. Sans ces dispositifs, et à comportements des ménages inchangés, 15,1 millions de ménages paieraient un impôt plus élevé, dont 4,8 million de ménages non imposables qui alors le deviendraient. Par ailleurs, 1,1 million de ménages paieraient un impôt plus faible, en raison principalement du mécanisme de calcul de la décote, dont le calcul peut être moins favorable aux couples qu’aux personnes seules..** 
+
+**Les ménages aisés sont les principaux bénéficiaires de ces dispositifs: la moitié des gains est captée par le quart des ménages les plus aisés. En effet, le nombre de ménages gagnants et le montant moyen des gains suivent en partie le profil progressif de l'impôt sur le revenu : ils augmentent avec le niveau de vie, en particulier sous l’effet du quotient conjugal qui n’est pas plafonné légalement.**
+
+## En France, l’impôt sur le revenu est conjugalisé et familialisé
+
+En France, depuis 1945, l’impôt sur le revenu (IR) repose sur deux piliers : la progressivité du barème en fonction du revenu et la **redistributivité horizontale** pour les familles. 
+Même s'il représente une part relativement modeste des recettes fiscales, l'IR réduit les inégalités de répartition de revenu après impôt en prélevant plus fortement les revenus des foyers les plus aisés. En vertu du principe constitutionnel d’égalité devant l’impôt selon lequel les citoyens doivent être imposés en fonction de leurs capacités contributives, l'IR est acquitté au niveau du foyer fiscal mutualisant ainsi les revenus et les charges. À travers un mécanisme de parts, le calcul de l’IR tient compte de la situation maritale, du nombre de personnes à charge et de situations spécifiques comme l’invalidité. D’une part, les couples mariés ou pacsés sont obligatoirement imposés conjointement et comptent pour deux parts fiscales. D’autre part, chaque personne à charge compte pour une demi-part ou une part fiscale supplémentaire. *In fine*, le barème de l’impôt qui s’applique au foyer dépend des **quotients conjugal et familial**, rapport entre le revenu global du foyer et le nombre de parts. 
+
+Compte tenu de la progressivité du barème, ce mode de calcul permet donc à certains ménages de diminuer leur taux d'imposition. Le quotient conjugal réduit l’imposition de certains couples mariés ou pacsés par rapport à une situation où ils déclareraient leurs revenus séparément : c’est le cas lorsque leurs revenus sont suffisamment différents pour que la mutualisation des revenus conduise à un taux d’imposition global plus faible. Le mécanisme du quotient familial peut également réduire l’impôt de foyers ayant des personnes à charge ou des charges spécifiques, par rapport à une situation où ces dernières ne seraient pas prises en compte, en leur permettant d’accéder à une tranche de taux d’imposition plus faible.
+
+Les composantes conjugales et familiales de l’IR sont toutefois complexes et il n’est pas aisé d’appréhender leurs effets sur l’impôt acquitté par les ménages français. Ainsi, «l’avantage conjugal» du nombre de parts n’est pas plafonné légalement alors que «l’avantage familial» l’est. Par ailleurs, d’autres mécanismes plus indirects, tels que la mutualisation de la **décote**, des **crédits et réductions d’impôt** ou de certains revenus non individualisables, peuvent accentuer, atténuer ou annules les effets des quotients. 
+
+Si on peut s'attendre à ce que les composantes conjugales et familiales de l’impôt favorisent des couples et des familles, cette étude caractérise précisément combien de foyers sont concernés, lesquels et pour quels montants. Des travaux antérieurs ont déjà été menés sur la question, notamment pour appréhender les effets du quotient conjugal [Eidelman, 2013, André, 2019] ou du quotient familial [Échevin, 2003, André et Sireyjol, 2019]. Cette étude vise à appréhender les effets des deux composantes au sens large, via les parts fiscales et les mécanismes indirects, sur l’impôt acquitté par les ménages en France métropolitaine en 2018. Elle s’appuie sur le modèle de microsimulation Ines (**sources et méthodes**). 
+
+## En 2018, les mécanismes conjugaux et familiaux réduisent l’impôt de 15,1 millions de ménages
+
+
+Afin d’évaluer les effets budgétaires et redistributifs des dispositifs conjugaux et familiaux au sens large de l’impôt sur le revenu, une situation fictive de référence (« impôt individualisé ») est comparée à l’impôt réel intégrant les dispositifs conjugaux et familiaux. Cet impôt fictif individualise les revenus et neutralise l’ensemble des parts fiscales ainsi que les autres mécanismes conjugalisés et familialisés du calcul de l’impôt. Les gains et les pertes des ménages sont calculés comme la différence de **revenu disponible** des ménages entre les deux situations. 
+
+Par rapport à une imposition « individualisée », l’imposition existante en 2018 entraîne une baisse des recettes fiscales de 29,7 milliards d'euros (*figure 1*), soit 30,6 %. Cette baisse est imputable pour 19,0 milliards d'euros (64 % de la baisse) à la composante familiale de l'IR et pour 10,8 milliards d'euros (36 % de la baisse) à sa composante conjugale. Elle s’explique essentiellement par l'effet isolé du barème et du nombre de parts; les mécanismes plus indirects, comme la décote, les crédits et réductions d’impôt, jouent moins.
+
+Les mécanismes conjugaux et familiaux de l’IR diminuent l’impôt de 15,1 millions de ménages : 12,1 millions sont gagnants à la familialisation prise isolément, 6,8 millions à la conjugalisation prise isolément et 3,8 millions gagnent aux deux mécanismes (*figure 1*). L’effet cumulé de la conjugalisation et de la familialisation de l’impôt engendre des gains annuels moyens pour les ménages gagnants de 2 000 euros par an.  
+
+#### Figure 1 : Effets des dispositifs de conjugalisation et de familialisation de l’impôt sur le revenu en 2018
+
+|  |  Baisse des | recettes fiscales | Ménages gagnants  | Ménages perdants |  Gain moyen par ménage gagnant  |  Perte moyenne par ménage perdant | Effet moyen cumulé |
+|:---------------- |:-----:|:-----:|:-----:|:----:|:-----:|:-----:|:------:|
+|   | (en milliards d'euros par an)  |    (en %)   | (en millions) | (en millions)  | (en euros par an) | (en euros par an) |
+| Conjugalisation  |   10,8  |    11,1 |     6,8 |  2,4 | 1 730 |  -430 | 1 160  |
+| Familialisation  |   19,0  |    19,5 |    12,1 |  ns  | 1 570 |  ns   | 1 550  |
+| Effet cumulé     |   29,7  |    30,6 |    15,1 |  1,1 | 2 000 | -530  | 1 830  |
+ns : non significatif.
+
+Lecture : par rapport à une imposition fictive individualisée, les recettes fiscales de l'IR diminuent de 29,7 milliards d’euros, soit 30,6 % de baisse en raison des dispositifs conjugaux et familiaux. Les dispositifs conjugaux seuls entraînent une baisse de l’impôt pour 6,8 millions de ménages dits gagnants, pour un montant moyen de 1 730 euros par an, et une hausse de l’impôt pour 2,4 millions de ménages dits perdants, pour un montant moyen de 430 euros par an. L’effet moyen de la conjugalisation représente un gain de 1 160 euros par an.
+
+Champ : France métropolitaine, ménages ordinaires dont le revenu est positif ou nul et dont la personne de référence n’est pas étudiante.
+
+*Sources : Insee, enquête Revenus fiscaux et sociaux 2016 (actualisée 2018) ; Insee-Drees-Cnaf, modèle Ines 2018, calculs de l'auteur.* 
+
+
+De façon symétrique, ces mécanismes augmentent l'impôt de 1,1 million de ménages. Pour ces ménages, le niveau moyen des pertes est de 530 euros par an en moyenne. Plus précisément, la conjugalisation augmente l’impôt de 2,4 millions de ménages, mais la familialisation compense ces pertes pour 1,3 million d’entre eux. 
+
+Ces pertes résultent du caractère obligatoire de la conjugalisation. En effet, deux décotes individuelles peuvent être plus avantageuses qu’une décote commune [Eidelman, 2013]. 
+
+En tenant compte des gagnants et des perdants, l’effet moyen des mécanismes conjugaux et familiaux sur les ménages concernés représente un gain annuel de 1 830 euros. 
+
+## 4,8 millions de ménages deviennent non imposables
+
+4,8 millions de ménages ne sont pas assujettis à l'IR en raison des dispositifs conjugaux et familiaux mais l'auraient été en leur absence. Cette baisse se décompose en 1,7 million dû à la conjugalisation et 3,0 millions dus à la familialisation. La part de ménages imposables passe de 68,1 % à 51,5 %, soit une baisse de 16,6 points.  
+
+La baisse de la part de ménages imposables est plus faible pour les ménages aux extrémités des échelles de **niveau de vie** Les revenus des plus modestes sont trop faibles pour être imposables, même en l'absence des dispositifs conjugaux et familiaux. Les revenus des plus aisés, au contraire, sont trop élevés pour que ces dispositifs les rendent non imposables. Au niveau de vie médian, plus des trois quarts des ménages seraient imposables si les dispositifs conjugaux et familiaux de calcul de l’impôt n’existaient pas alors que seulement la moitié d'entre eux le sont avec l’IR de 2018. 
+
+## Les gains augmentent avec le niveau de vie même si certains ménages sont perdants
+
+Les gains et les pertes varient selon l’échelle des niveaux de vie. Même si l’avantage des dispositifs conjugaux et familiaux est lié aux caractéristiques démographiques du foyer, le nombre de gagnants et le montant des gains croissent avec le niveau de vie.  Deux effets se cumulent en ce qui concerne la concentration des gains. D’une part, seuls les ménages qui seraient imposables en l’absence de ces dispositifs peuvent être gagnants. D’autre part, quand le revenu augmente, le mécanisme de parts implique un gain absolu plus important par rapport à un adulte imposé isolément. En outre, ce gain augmente également, en proportion du niveau de vie, du fait de la progressivité des taux d’imposition et des écarts de revenus au sein des couples.
+
+Ainsi, les ménages les plus aisés bénéficient plus fréquemment des dispositifs conjugaux et familiaux : parmi les 10 % de ménages ayant le niveau de vie le plus élevé, plus de 60 % sont gagnants, contre moins de 50 % pour les ménages les 25 % les plus modestes (*figure 2*). Les perdants sont principalement des couples avec des revenus assez élevés pour être soumis à l'impôt mais suffisamment faibles pour être concernés par la décote. La somme des impôts acquittés par les deux membres imposés séparément est alors inférieure à l’impôt acquitté par le couple imposé conjointement, car la perte due à l’absence de décote en couple dépasse le gain lié au quotient conjugal. Ceci s'explique en partie parce que le **plafond de la décote** pour un couple est inférieur au double du plafond individuel. Ces ménages perdants sont concentrés dans les niveaux de vie compris entre les cinquième et huitième **déciles**. Ils représentent une part non négligeable des ménages (environ 10 %), mais leurs pertes sont relativement faibles. 
+
+#### Figure 2 : Ménages gagnants, perdants ou neutres aux dispositifs de conjugalisation et familialisation de l’impôt sur le revenu en fonction du niveau de vie
+
+![](./sorties/G2_GPN_QCQF.png){width=100%} 
+
+Lecture : au 80e centile de niveau de vie (tel que 80 % des ménages ont un niveau de vie inférieur), 12,8 % des ménages sont perdants, 29,8 % sont neutres et 57,4 % sont gagnants en raison des effets de la conjugalisation et de la familialisation de l'impôt sur le revenu. 
+
+Champ : France métropolitaine, ménages ordinaires, dont le revenu est positif ou nul et dont la personne de référence n’est pas étudiante.
+
+*Sources : Insee, enquête Revenus fiscaux et sociaux 2016 (actualisée 2018) ; Insee-Drees-Cnaf, modèle Ines 2018, calculs de l'auteur.*
+
+Non seulement les ménages les plus aisés sont les plus nombreux à être gagnants, mais leur gain est aussi plus important : ils sont ceux dont les dispositifs conjugaux et familiaux augmentent le plus fortement le niveau de vie, en montant comme en proportion. Le niveau de vie des ménages gagnants appartenant aux 5 % des ménages les plus riches (au-delà du dernier **vingtile**)  augmente de plus de 3 % du fait de ces dispositifs, contre moins de 0,3 % pour les 5 % des ménages les plus pauvres (*figure 3*). 
+
+#### Figure 3 : Gains et pertes moyens associés aux dispositifs de conjugalisation et familialisation de l’impôt sur le revenu en fonction du niveau de vie
+
+![](./sorties/G3_GP_QCQF.png){width=100%} 
+
+Lecture : au sein des 5 % des ménages ayant les niveaux de vie les plus élevés (au-delà du dernier vingtile), le gain moyen des ménages gagnants à la conjugalisation et à la familialisation représente une hausse de 5,7 % de leur niveau de vie et la perte moyenne des ménages perdants est inférieure à 0,01 % de leur niveau de vie. 
+
+Champ: France métropolitaine, ménages ordinaires, dont le revenu est positif ou nul et dont la personne de référence n’est pas étudiante.
+
+*Sources : Insee, enquête Revenus fiscaux et sociaux 2016 (actualisée 2018) ; Insee-Drees-Cnaf, modèle Ines 2018, calculs de l'auteur.*
+
+## Les gains sont donc concentrés sur les ménages les plus aisés
+
+Les gains sont concentrés sur les ménages les plus aisés comme pour le nombre de ménages gagnants et perdants. Ainsi, près de 20 % de gains (5,8 milliards d'euros) à la conjugalisation et familialialisation sont captés par les 5 % de ménages les plus riches, et plus de 50 % de ces gains par les 25 % les plus riches (*figure 4*). Liées à la conjugalisation obligatoire de l’impôt, les pertes sont concentrées dans la deuxième moitié de la distribution de niveau de vie, en particulier autour du troisième quart.
+
+Contrairement aux gains liés au quotient familial, ceux du **quotient conjugal** ne sont pas plafonnés légalement. Le plafonnement du quotient familial concerne 1,7 million de ménages mais les ménages les plus aisés sont les plus concernés. Seulement 2,8 % des ménages parmi les 75 % les plus modestes sont concernés par le plafonnement du quotient familial, contre plus de 22,5 % parmi les 10 % les plus aisés. 85,7 % (respectivement 27,5 %) des ménages concernés par le plafonnement du quotient familial appartiennent aux 20 % (respectivement 5 %) les plus aisés. Ainsi, contrairement au quotient conjugal, la concentration des gains liés au quotient familial est nettement diminuée en raison de ce plafonnement. Les effets de la conjugalisation sont davantage anti-redistributifs au sens où ils bénéficient relativement plus aux ménages les plus aisés [André, 2019]. 
+
+#### Figure 4 : Répartition des gains et des pertes liés à la conjugalisation et la familialisation de l’impôt sur le revenu en fonction du niveau de vie
+![](./sorties/G4_GPdist_QCQF_euro.png){width=100%} 
+
+Lecture : en 2018, 5,8 milliards d'euros de gains liés à la conjugalisation et la familialisation de l’impôt sur le revenu bénéficient aux 5 % les plus aisés alors que 90 millions d'euros de pertes y sont concentrés. 
+
+Champ: France métropolitaine, ménages ordinaires, dont le revenu est positif ou nul et dont la personne de référence n’est pas étudiante.
+
+*Sources : Insee, enquête Revenus fiscaux et sociaux 2016 (actualisée 2018) ; Insee-Drees-Cnaf, modèle Ines 2018, calculs de l'auteur.*
+
+***
+
+## Définitions 
+
+Les impôts progressifs et les prestations sociales modifient les écarts de revenu disponible entre deux ménages de composition familiale identique. Ces transferts conduisent d'une part à une **redistribution verticale** des revenus entre les personnes aisées et les personnes modestes, d'autre part à une **redistribution horizontale** des revenus entre les ménages aux revenus identiques mais de composition familiale différente. 
+
+Le **quotient conjugal** correspond au mode de calcul de l’impôt sur le revenu (IR) qui attribue deux parts fiscales aux couples mariés ou pacsés, de telle sorte que la moyenne de leurs revenus est alors soumise au barème progressif de l’IR (en l'absence de personne à charge). 
+
+Le **quotient familial** correspond au mode de calcul de l’impôt sur le revenu (IR) qui accorde des parts fiscales aux personnes à charge. Les nombres de parts fiscales dépend de la configuration familiale du foyer, au nombre d'enfants notamment. Des demi-parts supplémentaires sont prévues dans des cas spécifiques (invalidité, veuvage, etc.) et en particulier pour le parent vivant seul avec au moins un enfant à charge exclusive (mineur ou majeur célibataire). L’ensemble de ces parts, charges spécifiques comprises, est un dispositif familial.
+
+Le bénéfice du quotient familial, c’est-à-dire la différence entre l’impôt dû et l’impôt qui serait dû si ce mécanisme n’était pas appliqué, est plafonné à hauteur de 1 527 euros par demi-part en 2018.
+
+La **décote** est un dispositif fiscal de lissage de l’impôt lorsque celui-ci est faible, afin de le réduire voire l’annuler. Son montant dépend de l’impôt obtenu après application du barème et s’applique lorsque l’impôt est inférieur à un certain **plafond**. En 2018, ce plafond s’élève à 1 569 euros pour une personne seule (2 585 euros pour un couple imposé conjointement). La décote est égale à la différence entre 1 177 euros pour une personne seule (1 939 euros pour un couple imposé conjointement) et 75 % de l’impôt calculé. Ce mécanisme permet d’annuler l’impôt s’il est inférieur à 666 euros pour une personne seule (1 097 euros pour un couple) puis son bénéfice décroît linéairement jusqu’au montant du plafond.
+
+Les réductions d’impôt sont déduites de l’impôt mais ne sont pas versées si elles dépassent celui-ci. En revanche, si les crédits d’impôt dépassent l’impôt dû, la différence est versée au foyer par l’administration fiscale. 
+
+Le **revenu disponible** d’un ménage comprend les revenus d’activité, les revenus de remplacement (allocations chômage, indemnités maladie et pensions de retraite) et les revenus du patrimoine, auxquels sont ajoutés les transferts en provenance d’autres ménages et les prestations sociales, et desquels sont soustraits les prélèvements sociaux et fiscaux.
+
+Le **niveau de vie** est égal au revenu disponible du ménage divisé par le nombre d’unités de consommation (1 unité pour le premier adulte, 0,5 pour les autres personnes de 14 ans ou plus et 0,3 pour les enfants de moins de 14 ans).
+
+Si on ordonne les individus dans l’ordre croissant de leur niveau de vie, les **déciles** sont les valeurs (notées D1 à D9) qui partagent la distribution des niveaux de vie en dix sous-populations de même effectif. Les 10 % des personnes les plus modestes ont un niveau de vie inférieur au 1er décile ; celui des 10 % les plus aisées est supérieur au 9e décile. Les **vingtiles** (resp. **centiles**) s'appuient sur le même principe en partageant la population en vingt (resp. cent).
+
+Les ménages sont considérés comme **gagnants ou perdants** à partir de dix euros d'évolution de leur impôt sur le revenu annuel. Les gains et pertes sont calculés par différence. Un scénario fictif d’impôt individualisé est comparé à l’impôt actuel; un scénario intermédiaire, uniquement conjugalisé, permet alors de distinguer les effets conjugaux des effets familiaux.
+
+***
+
+## Sources et méthode
+
+Le **modèle de microsimulation Ines** permet de simuler les prestations sociales monétaires et les prélèvements sur une population représentative des ménages de France métropolitaine. Le modèle est adossé à l’enquête Revenus fiscaux et sociaux (ERFS) de l’Insee, qui réunit des informations administratives, fiscales et sociales et des informations socio-démographiques de l’enquête Emploi.
+
+En appliquant la législation de 2018, le modèle de microsimulation permet de calculer les prélèvements que les ménages acquittent cette année-là ainsi que les prestations dont ils bénéficient, pour en déduire le niveau de vie après redistribution. Le champ est restreint aux ménages ordinaires (hors logements collectifs) de France métropolitaine, dont la personne de référence n’est pas étudiante et dont les revenus déclarés sont positifs ou nuls.
+
+### Mesurer les effets des dispositifs conjugaux et familiaux de l’impôt
+
+L’impôt sur le revenu se calcule en plusieurs étapes. Le revenu imposable du foyer est déterminé à partir du revenu brut global de ses membres, duquel on déduit les charges et les abattements.	Ce revenu est divisé par le nombre de parts du foyer en fonction de la configuration familiale de celui-ci. Le barème progressif de l’impôt est ensuite appliqué à ce revenu proratisé : le taux d’imposition augmente avec la tranche de revenu. En 2018, le nombre de tranches d’imposition est égal à 5. La séquence des taux marginaux d’imposition correspond à 0 %, 14 %, 30 %, 41 % et 45 %. Le seuil de la première tranche est à 9 807 euros en 2018 et celui de la dernière à 153 783 euros. Le résultat de ce calcul est ensuite multiplié par le nombre de parts du foyer pour déterminer l’impôt du foyer. Enfin, d'éventuelles décotes, réductions et crédits d’impôt sont appliqués, le cas échéant. Si l’impôt dû après ces calculs est inférieur à 61 euros, l’administration fiscale ne réclame pas le paiement de celui-ci.
+
+Le modèle Ines permet de calculer le revenu disponible de chaque personne de l’échantillon ERFS dans différents scénarios. Les effets budgétaires et redistributifs sont alors calculés au niveau de chaque ménage et agrégés après pondération pour l’ensemble des ménages.
+
+L'objectif de cette étude est d’estimer l’effet des dispositifs conjugaux et familiaux de l’impôt sur le revenu. La situation de référence retenue, appelée contrefactuelle, est celle d’un impôt fictif entièrement individualisé. Elle est comparée, par simple différence, à l’impôt actuel qui comprend les dispositifs conjugaux et familiaux. Par convention, les ménages sont considérés comme gagnants ou perdants à partir de dix euros d’évolution de leur impôt annuel. 
+
+La méthode d’estimation adoptée ici implique de reconstituer la situation contrefactuelle dans laquelle l’impôt serait individualisé. Chaque membre d’un foyer fiscal est supposé imposé comme s’il était seul et sans personne à charge. La première étape consiste à attribuer à chaque membre du foyer fiscal la part du revenu qui lui correspond. Les salaires, pensions, rentes et revenus des indépendants se traitent sans hypothèse spécifique puisque ceux-ci sont déclarés dans une case correspondant à l’individu du foyer qui perçoit ces revenus. En revanche, les revenus des valeurs et capitaux mobiliers, les plus-values et les revenus fonciers sont déclarés au niveau du foyer et ne sont pas individualisables à partir des simples informations des déclarations fiscales. Dans le cadre de cette étude, ces revenus sont répartis entre les membres du couple au prorata de leurs revenus individuels. Ainsi, plus un membre du couple a des revenus individuels élevés, plus on lui attribue une part de revenus non individualisables élevée. En revanche, une personne à charge qui aurait des revenus individuels ne se voit jamais attribuer une part des revenus non individualisables. Pour évaluer l’importance de cette hypothèse, les résultats sont comparés avec ceux qui seraient obtenus en supposant que les revenus non individualisables sont répartis de façon équitable entre les deux membres du couple. Les effets agrégés sont proches mais légèrement atténués [André et Sireyjol, 2019].
+
+Les crédits et réductions d’impôt sont également individualisés, tant pour l’appréciation de l’éligibilité que pour le calcul du montant versé, selon trois cas de figure en fonction des caractéristiques du crédit ou de la réduction [André et Sireyjol, 2019].
+
+
+## Pour en savoir plus
+
+André M., « L’imposition conjointe des couples mariés et pacsés organise une redistribution en direction des couples les plus aisés, dont les effets ont augmenté entre 2012 et 2017 », in *France, portrait social*, coll. « Insee Références », édition 2019.
+
+André M., Sireyjol A., « Imposition des couples et des familles : effets budgétaires et redistributifs de l’impôt sur le revenu », *Documents de travail* G2019/10, Insee, novembre 2019.
+
+André, M., Solard, J., « Au titre de la politique familiale, la Nation a consacré 4 % du PIB aux enfants en 2013 », dans M. Beffy (dir.), La protection sociale en France et en Europe en 2013, coll. *Panoramas de la Drees*, 2015.
+
+Marc, C., M. Pucci, et A. Favrat, « Les dispositifs sociaux et fiscaux en faveur des familles : quelle compensation du coût des enfants ? », in *Économie et Statistique* n° 478(1), 5–34, Insee, 2015.
+
+Eidelman, A., L'imposition commune des couples mariés ou pacsés : un avantage qui n'est pas systématique, *Insee Analyses* n° 5, mai 2013.
+
+Échevin D., « L’individualisation de l’impôt sur le revenu : équitable ou pas ? », in *Économie & Prévision* n° 160-161(4), 2003.
+
