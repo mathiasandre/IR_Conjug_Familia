@@ -1,0 +1,11 @@
+Ce dossier contient des programmes désarticulés de l'enchaînement général d'Ines. 
+
+Objectifs : 
+
+- comparer l'ERFS noyau et l'ERFS élargie : programme 1_Comparaison_Noyau_Elargie. 
+Sert une fois par an (pour les anref<=2012), au moment de la réception de l'élargie. 
+
+- détecter le plus tôt possible des évolutions bizarres d'une ERFS noyau à l'autre : programme 2_Evolution_ERFS
+Sert une fois par an, au moment de la réception de l'ERFS noyau. 
+
+- faire le travail de mise à jour - partie amont : c'est l'objet des programmes de contrôles (3, 4 et 5)

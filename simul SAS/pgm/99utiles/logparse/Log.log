@@ -1,0 +1,47 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 secondes
+      user cpu time       0.00 secondes
+      system cpu time     0.00 secondes
+      memory              20.75k
+      OS Memory           37600.00k
+      Timestamp           17/01/2018 11 h 01
+      
+
+39733   data test;
+39734       set modele.basemen;
+39735       run;
+
+NOTE: There were 50096 observations read from the data set MODELE.BASEMEN.
+NOTE: The data set WORK.TEST has 50096 observations and 103 variables.
+NOTE: L'étape DATA used (Total process time):
+      real time           0.08 secondes
+      user cpu time       0.03 secondes
+      system cpu time     0.04 secondes
+      memory              477.53k
+      OS Memory           37600.00k
+      Timestamp           17/01/2018 11 h 01
+      
+
+39736   proc export
+39737       dbms=&excel_exp. replace
+39738       data=myperfdata
+39739       outfile="&sortie_cible.\myperfdata.&excel_exp.";
+39740       run;
+
+Error creating XLSX file -> E:\Bases Tortines\Leg 2016 Base 2014\sortie\myperfdata.xlsx .  It is 
+either not an Excel spreadsheet or it is damaged.   Error code=8014900A
+Requested Output File is Invalid
+ERROR: Export unsuccessful.  See SAS Log for details.
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE EXPORT used (Total process time):
+      real time           0.00 secondes
+      user cpu time       0.00 secondes
+      system cpu time     0.01 secondes
+      memory              318.75k
+      OS Memory           37600.00k
+      Timestamp           17/01/2018 11 h 02
+      
+
+39741   proc printto;
+39742   run;
+

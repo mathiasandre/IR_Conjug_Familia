@@ -1,0 +1,9 @@
+Une fois par an, on fige les programmes d'Ines. 
+Or, lorsqu'on s'intéresse aux résultats de versions antérieures du modèle (pour comprendre des différences...), on peut
+vouloir comparer une vieille version des programmes avec des cibles plus fraîches dont on ne disposait pas au moment 
+où le modèle a été figé. 
+
+Le programme "Cibles_Ines" coïncide à la version la plus récente du modèle. Or, depuis le figé auquel on s'intéresse,
+la structure des tables, ou le nom des variables, peut avoir changé. 
+
+Il y a donc un certain nombre de petites adaptations (principalement des rename ...) à faire pour que le programme Cibles puisse tourner. 
